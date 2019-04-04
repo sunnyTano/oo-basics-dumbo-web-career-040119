@@ -8,16 +8,8 @@ class Book
   end 
   
   def turn_page
-    puts ""
+    puts "Flipping the page...wow, you read fast!"
+  end 
 
-  
-  describe '#turn_page' do
-    it 'can turn the page' do
-      expect($stdout).to receive(:puts).with("Flipping the page...wow, you read fast!")
-      book = Book.new("The World According to Garp")
-      book.turn_page 
-    end
-  end
-end
 end 
 
