@@ -7,7 +7,8 @@ class Book
     @title = title
   end 
   
-  def tu
+  def turn_page
+    puts ""
 
   
   describe '#turn_page' do
